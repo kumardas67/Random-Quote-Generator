@@ -11,7 +11,7 @@ async function getQuote(){
    const authorQuote = data.author;
    quoteEl.innerText = quoteContent;
    authorEl.innerText = authorQuote;
-   console.log(data);
+   
 }
 
 btnEl.addEventListener('click',getQuote)
